@@ -19,8 +19,8 @@ class Project extends Component{
         
         return (
             <div className="Project">
-                     Projects  Component {this.props.test}
-
+                    
+                    <h3>Projects  Component</h3>  {this.props.test}
                     {projItems}
 
             </div>
